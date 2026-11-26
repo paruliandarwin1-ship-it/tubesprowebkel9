@@ -17,8 +17,8 @@
                 <input type="email" name="email" id="email" placeholder="masukkan email" required><br>
                 <label for="password">Password </label>
                 <input type="password" name="password" id="password" placeholder="masukkan password" required><br>
-                <label for="nomorPeserta">No Siswa </label>
-                <input type="text" name="nomorPeserta" id="nomorPeserta" placeholder="masukkan password" required ><br>
+                <label for="nomorSiswa">No Siswa </label>
+                <input type="text" name="nomorSiswa" id="nomorSiswa" placeholder="masukkan password" required ><br>
                 <button type="submit" name="submit">Daftar</button>
                 <div class="login-link">
     <p>Already have an account?</p>
