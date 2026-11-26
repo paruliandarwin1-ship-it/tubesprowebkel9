@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3f6fb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
+
+.header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+.role-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.role-card {
+    background: white;
+    width: 350px;
+    padding: 35px 25px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.role-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.role-icon {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.role-card h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.role-card p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.role-button {
+    display: inline-block;
+    width: 100%;
+    padding: 13px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.role-button:hover {
+    background: #1d4ed8;
+}
+
+/* Tampilan untuk HP */
+@media (max-width: 650px) {
+    .role-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .role-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+}
