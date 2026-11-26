@@ -9,7 +9,7 @@
 <body>
     <div class="card-daftar">
         <div class="form-daftar">
-            <form action="../../halaman/halaman pengajar/halaman_pengajar.php" method="POST">
+            <form action="halaman_pengajar.php" method="POST">
                 <h1>Daftar</h1>
                 <label for="username">Username</label> 
                 <input type="text" name="username" id="username" placeholder="masukkan username" required><br>
@@ -17,7 +17,9 @@
                 <input type="email" name="email" id="email" placeholder="masukkan email" required><br>
                 <label for="password">Password </label>
                 <input type="password" name="password" id="password" placeholder="masukkan password" required><br>
-
+                 <label for="nomorPeserta">No Pengajar </label>
+                 <input type="text" name="nomorPengajar" id="nomorPengajar" placeholder="masukkan password" required ><br>
+               
 <label for="pendidikan">Pendidikan Terakhir</label>
 <select name="pendidikan" id="pendidikan" required>
     <option value="" disabled selected>-- Pilih Pendidikan --</option>
@@ -28,10 +30,10 @@
     <option value="S3">S3</option>
 </select>
 
-                <input type="submit" value="Daftar">
+                <button type="submit" name="submit">Daftar</button>
 <div class="login-link">
     <p>Already have an account?</p>
-    <a href="../../login/login pengajar/login_pengajar.php">Login</a>
+    <a href="login_pengajar.php">Login</a>
 </div>
 
             </form>
