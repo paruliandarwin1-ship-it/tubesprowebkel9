@@ -1,3 +1,12 @@
+<?php session_start();
+if (isset($_POST["submit"])) 
+     {
+        $_SESSION["username"] = $_POST["username"];
+        $_SESSION["email"] = $_POST["email"];
+        $_SESSION["password"] = $_POST["password"];
+        $_SESSION["nomorPeserta"] = $_POST["nomorPeserta"];
+     }
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +15,6 @@
     <title>Document</title>
 </head>
 <body>
-    hi
+    <a href="profil_siswa.php">Masuk ke profil</a>
 </body>
 </html>
