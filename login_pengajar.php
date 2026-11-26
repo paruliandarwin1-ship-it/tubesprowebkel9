@@ -14,7 +14,7 @@
     <div class="card-login">
         <div class="form-login">
 
-            <form action="../../halaman/halaman pengajar/halaman_pengajar.php" method="POST">
+            <form action="halaman_pengajar.php" method="POST">
 
                 <h1>Login</h1>
 
@@ -45,7 +45,7 @@
 
                 <p class="register-link">
                     Don't have an account?
-                    <a href="../../register/register pengajar/register_pengajar.php">
+                    <a href="register_pengajar.php">
                         Register
                     </a>
                 </p>
