@@ -17,8 +17,8 @@
                 <input type="email" name="email" id="email" placeholder="masukkan email" required><br>
                 <label for="password">Password </label>
                 <input type="password" name="password" id="password" placeholder="masukkan password" required><br>
-                 <label for="nomorPeserta">No Pengajar </label>
-                 <input type="text" name="nomorPengajar" id="nomorPengajar" placeholder="masukkan password" required ><br>
+                 <label for="nomorPengajar">No Pengajar </label>
+                 <input type="text" name="nomorPengajar" id="nomorPengajar" placeholder="masukkan nomor pengajar" required ><br>
                
 <label for="pendidikan">Pendidikan Terakhir</label>
 <select name="pendidikan" id="pendidikan" required>
